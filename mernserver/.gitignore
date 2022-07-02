@@ -1,0 +1,5 @@
+node_modules
+package-lock.json
+.env
+mernclientpage/node_modules
+mernclientpage/package-lock.json

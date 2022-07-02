@@ -1,0 +1,17 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": {
+    "node": "16.15.1",
+    "npm": "8.13.2"
+  },
+  "scripts": {
+    "build": "cd mernserver && npm install  && cd ../mernclientpage && npm install && npm run build",
+    "start": "node mernserver/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
