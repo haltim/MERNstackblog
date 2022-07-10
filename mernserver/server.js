@@ -24,7 +24,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 if (process.env.NODE_ENV === 'production'){
-  app.use(express.static("/mernclientpage/public"));
+  app.use(express.static("/mernclientpage"));
 }
 
 
